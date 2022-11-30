@@ -1,0 +1,82 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+    border: 5px solid rgba(241, 115, 174, 0.691);
+    border-radius: 30px;
+  }
+.imgrotate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+  
+  .backg {
+    background:rgb(250, 229, 229)
+  }
+  .bubbly {
+    position: sticky;
+    border-style: solid;
+    border-color: rgba(241, 115, 174, 0.691);
+    background-color:rgb(214, 167, 194);
+    border-width: 10px;
+    border-radius: 15px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    height: 150px;
+  }
+  .bubblytabs {
+    border-style: solid;
+    border-color: rgba(241, 115, 174, 0.691);
+    background-color:rgb(214, 167, 194);
+    border-width: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+  }
+  .font1{
+    font-family: cursive;
+    font-weight: bold;
+  }
+  img.a {
+    width: 100px;
+    height: 100px;
+  
+    float:left;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 10px solid rgba(241, 115, 174, 0.691);
+    border-radius: 50px;
+
+  }
+  img.b {
+    width: 100px;
+    height: 100px;
+    
+    float:right;
+    margin-right: 30px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: 10px solid rgba(241, 115, 174, 0.691);
+    border-radius: 50px;
+  }
