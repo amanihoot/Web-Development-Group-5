@@ -34,7 +34,7 @@
     
     border-style: double;
     border-color: rgba(241, 115, 174, 0.691);
-    background-color:rgb(214, 167, 194);
+    background-color:rgba(255, 176, 221, 0.66);
     border-width: 10px;
     border-radius: 15px;
     padding: 0px;
@@ -46,7 +46,7 @@
   .bubblytabs {
     border-style: double;
     border-color: rgba(241, 115, 174, 0.691);
-    background-color:rgb(214, 167, 194);
+    background-color:rgba(255, 176, 221, 0.66);
     border-width: 10px;
     border-radius: 15px;
     text-align: center;
@@ -85,3 +85,5 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
+
+  
