@@ -2,10 +2,9 @@
     height: 200px;
     background: #aaa;
     border: 5px solid rgba(241, 115, 174, 0.691);
-    border-radius: 30px;
   }
 .imgrotate {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     width: 120px;
@@ -32,20 +31,20 @@
     background:rgb(250, 229, 229)
   }
   .bubbly {
-    position: sticky;
-    border-style: solid;
+    
+    border-style: double;
     border-color: rgba(241, 115, 174, 0.691);
     background-color:rgb(214, 167, 194);
     border-width: 10px;
     border-radius: 15px;
-    padding: auto;
-    margin: auto;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
     width: 1000px;
     height: 150px;
   }
   .bubblytabs {
-    border-style: solid;
+    border-style: double;
     border-color: rgba(241, 115, 174, 0.691);
     background-color:rgb(214, 167, 194);
     border-width: 10px;
@@ -55,7 +54,7 @@
     margin: auto;
   }
   .font1{
-    font-family: cursive;
+    font-family: "copperplate",fantasy;
     font-weight: bold;
   }
   img.a {
@@ -65,8 +64,11 @@
     float:left;
     margin-left: 30px;
     margin-top: 15px;
-    border: 10px solid rgba(241, 115, 174, 0.691);
+    border: 10px double rgba(241, 115, 174, 0.691);
     border-radius: 50px;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 
   }
   img.b {
@@ -77,6 +79,9 @@
     margin-right: 30px;
     margin-top: 15px;
     border-radius: 50px;
-    border: 10px solid rgba(241, 115, 174, 0.691);
+    border: 10px double rgba(241, 115, 174, 0.691);
     border-radius: 50px;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
