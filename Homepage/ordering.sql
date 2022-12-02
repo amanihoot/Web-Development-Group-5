@@ -1,0 +1,32 @@
+CREATE TABLE Customers
+( CustomerID INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  Name CHAR(50) NOT NULL,
+  Address CHAR(100) not null,
+  City CHAR(30) not null
+);
+
+CREATE TABLE Orders
+( OrderID INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  CustomerID INT UNSIGNED NOT NULL,
+  Amount FLOAT(6,2),
+  Date DATE NOT NULL,
+
+  FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);
+
+CREATE TABLE Foods
+(  Food CHAR(13) NOT NULL PRIMARY KEY,   
+   Price FLOAT(4,2)
+);
+
+CREATE TABLE Order_Items
+( OrderID INT UNSIGNED NOT NULL,
+  Food CHAR(13) NOT NULL,
+  Quantity TINYINT UNSIGNED,
+
+  PRIMARY KEY (OrderID, Food),
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
+  FOREIGN KEY (Food) REFERENCES Foods(Food)
+);
+
+
