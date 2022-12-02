@@ -1,3 +1,15 @@
+.header {
+  border-style: double;
+    border-color: rgba(241, 115, 174, 0.691);
+    background-color:rgba(255, 176, 221, 0.66);
+    border-width: 10px;
+    border-radius: 15px;
+    width: 600px;
+    length: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+  }
 .fakeimg {
     height: 200px;
     background: #aaa;
@@ -60,6 +72,7 @@
   img.a {
     width: 100px;
     height: 100px;
+    
   
     float:left;
     margin-left: 30px;
