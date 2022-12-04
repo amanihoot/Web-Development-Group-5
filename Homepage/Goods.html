@@ -11,19 +11,8 @@
 <body class="backg">
 
 <div class="header">
-  <div class = "a">
-    <img src="cake1.png" class="a">
-  </div>
-  <div class = "b">
-    <img src="cake4.jpg" class="b">
-  </div>
-
-  <img src="logo black.png" alt="picture of Sweet-logos_white" style="width:490px;height:150px">
-
-
-  <p>Home of the best cake, pies, cookies and cupcakes</p> 
-  <h6>by Jerry Hui, Amani Harrison, Abdul Hassan and Michael Huynh</h6>
-
+  <h1 class="font1">Tout de Sweets</h1>
+  <p>We Bake It, You Take It!</p> 
 </div>
 
 <nav class="navbar navbar-expand-sm">
@@ -31,6 +20,9 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#">Goods</a>
@@ -46,26 +38,33 @@
     <div class="column">
     <img src= "cake5.jpg" style="width: 200px; height: 200px;">
     <h2>Rasberry Chocolate Cupcakes</h2>
-    <p> $3.75 for 1 cupcake</p>
-    <p> $40.00 for a dozen</p>
+    <p id="1" style="display:none"> $3.75 for 1 cupcake<br/>
+    $40.00 for a dozen</p>
+    <button type="button" onclick="document.getElementById('1').style.display='block'">Price!</button>
+
     </div>
     <div class="column">
     <img src= "cake3.jpg" style="width: 200px; height: 200px;">
     <h2>Strawberry Icing Cupcakes</h2>
-    <p> $3.75 for 1 cupcake</p>
-    <p> $40.00 for a dozen</p>
+    <p id="2" style="display:none"> $3.75 for 1 cupcake <br/>
+    $40.00 for a dozen</p>
+    <button type="button" onclick="document.getElementById('2').style.display='block'">Price!</button>
+
     </div>
     <div class="column">
     <img src= "cake4.jpg" style="width: 200px; height: 200px;">
     <h2>Verry Berry Cake</h2>
-    <p> $4.75 for 1 slice</p>
-    <p> $45.00 for whole cake</p>
+    <p id="3" style="display:none"> $4.75 for 1 slice<br/>
+        $45.00 for whole cake</p>
+    <button type="button" onclick="document.getElementById('3').style.display='block'">Price!</button>
+
     </div>
     <div class="column">
     <img src= "cakebg2.jpg" style="width: 200px; height: 200px;">    
     <h2>Chocolate Melt Cake</h2>
-    <p> $4.75 for 1 slice</p>
-    <p> $45.00 for whole cake</p>
+    <p id="4" style="display:none"> $4.75 for 1 slice<br/>
+    $45.00 for whole cake</p>
+    <button type="button" onclick="document.getElementById('4').style.display='block'">Price!</button>
     </div>
 </div>
 <div class="bubblytabs" style="padding:10px">
