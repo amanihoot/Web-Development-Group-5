@@ -10,6 +10,20 @@
     padding: 10px;
     margin: auto;
   }
+
+.column {
+    float:left;
+    width:50%;
+    padding:10px;
+    text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .fakeimg {
     height: 200px;
     background: #aaa;
